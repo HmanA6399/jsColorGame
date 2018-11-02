@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+</head>
+<body>
+	<div id="level">
+		<h1>Choose a level</h1>
+		<div class="container">
+			<div class="square2">Easy</div>
+			<div class="square2">Hard</div>
+		</div>
+	</div> 
+	<div id="game">
+		<h1>Guess the <span id="rgb"></span></h1>
+		<div id="navbar">
+			<button onclick="levelPage()">reset</button>
+			<span id="message"></span>
+			<button onclick="game(N)">change colors</button>
+		</div>
+		<div class="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
